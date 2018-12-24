@@ -1,0 +1,49 @@
+! Capslock keycode is 66
+keycode 66 = Mode_switch
+
+keysym i = i I Up
+keysym j = j J Left
+keysym k = k K Down
+keysym l = l L Right
+
+keysym h = h H Home
+keysym semicolon = semicolon colon End
+
+! u -> Pg Up
+keysym u = u U Prior
+
+! o -> Pg Dn
+keysym o = o O Next
+
+keysym m = m M Delete
+keysym n = n N BackSpace
+
+keysym r = r R Escape
+
+! Change Alt_R to Control_R
+remove Mod1 = Alt_R
+keycode 108 = Control_R
+add Control = Control_R
+
+
+
+
+
+! Usage:
+!   Enable
+!       xmodmap ~/.Xmodmap
+!   Reset
+!       setxkbmap
+!
+!   Autostart!
+!       echo "" >> "/etc/X11/xinit/xinitrc"
+!       echo "[[ -f ~/.Xmodmap ]] && xmodmap ~/.Xmodmap" >> "/etc/X11/xinit/xinitrc"
+!
+!   Use xev for keycode/keysym information
+!   Use xmodmap -pke to see current keymap
+!
+!
+! Referencs
+! [0](https://wiki.archlinux.org/index.php/xmodmap)
+! [1](http://cweiske.de/howto/xmodmap/index.html)
+! [2](https://superuser.com/questions/213051/remap-arrow-keys-to-winijkl-on-linux)
