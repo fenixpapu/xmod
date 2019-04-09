@@ -1,2 +1,5 @@
-xmod file is readme file.
-Please read it.
+# How to use Xmodmap
+
+1. Copy `Xmodmap` file to home folder: `~/`.
+
+2. Run command `xmodmap Xmodmap` to execute file.
