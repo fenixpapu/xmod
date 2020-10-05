@@ -20,24 +20,16 @@ keysym n = n N BackSpace
 
 keysym r = r R Escape
 
-! Change Alt_L to Control
-remove Mod1 = Alt_L
-keycode 64 = Alt_L
-add Control = Alt_L
-
-! Change Control_L to Alt
-remove Control = Control_L
-keycode 37 = Control_L
-add Mod1 = Control_L
-
+! Change Alt_R to Control_R
+remove Mod1 = Alt_R
+keycode 108 = Control_R
+add Control = Control_R
 
 
 
 
 
 ! Usage:
-!   Want to change this file? Read Reference [0] first.
-!
 !   Enable
 !       xmodmap ~/.Xmodmap
 !   Reset
@@ -49,11 +41,9 @@ add Mod1 = Control_L
 !
 !   Use xev for keycode/keysym information
 !   Use xmodmap -pke to see current keymap
-!   
-!   [3] About command: remove Mod1 = Alt_L
 !
-! Reference
+!
+! Referencs
 ! [0](https://wiki.archlinux.org/index.php/xmodmap)
 ! [1](http://cweiske.de/howto/xmodmap/index.html)
 ! [2](https://superuser.com/questions/213051/remap-arrow-keys-to-winijkl-on-linux)
-! [3](https://unix.stackexchange.com/questions/119212/mod-meta-super-keys)
