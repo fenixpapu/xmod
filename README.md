@@ -9,7 +9,9 @@
 
 ## Xmodmap for MacOS
 
-- this file config rules for (karabiner-elements)[https://karabiner-elements.pqrs.org/] as xmod on ubuntu :D
+- This file config rules for [karabiner-elements](https://karabiner-elements.pqrs.org/) as xmod on ubuntu :D
+
+- Already forked :D [my-karibiner](https://github.com/fenixpapu/Karabiner-Elements)
 
 ```
 cp xmod-karabiner.json ~/.config/karabiner/assets/complex_modifications/xmod-karabiner.json
