@@ -1,11 +1,10 @@
 # How to use Xmodmap
 
-
 ## Xmodmap for linux
+
 1. Copy `Xmodmap` file to home folder: `~/`.
 
 2. Run command `xmodmap Xmodmap` to execute file.
-
 
 ## Xmodmap for MacOS
 
@@ -16,3 +15,7 @@
 ```
 cp xmod-karabiner.json ~/.config/karabiner/assets/complex_modifications/xmod-karabiner.json
 ```
+
+- After enable system settings, go to complex modifications and enable `karabiner-elements settings` as image below:
+
+![!karabiner-elements-settings](karabiner-elements-settings.png)
